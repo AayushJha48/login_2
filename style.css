@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("bg.jpg") no-repeat;
+    height: 100vh;
+}
+
+.Login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    /* width: 173px; */
+    margin: 0 103px 40px 0;
+    color: white;
+    border-bottom: 2px solid #4caf50;
+}
+
+input[type="text"], input[type="password"] {
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 0 10px 10px;
+}
+
+div.User, div.Password {
+    color: white;
+    border-bottom: 2px solid rgb(58, 59, 61);
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    outline: none;
+    background: none;
+    padding: 5px 78px;
+    border: 2px solid #4caf50;
+    cursor: pointer;
+}
